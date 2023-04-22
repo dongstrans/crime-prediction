@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
-import PIL import Image
+from PIL import Image
 
 st.write("""
 # Stop Search Crime Prediction
