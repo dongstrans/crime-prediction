@@ -37,7 +37,7 @@ borough
 print(borough)
 
 def load_images():
-    image_files = glob.glob("*.png")
+    image_files = glob.glob("/*/*.png")
     manuscripts = []
     for image_file in image_files:
         image_file = image_file.replace("\\", "/")
