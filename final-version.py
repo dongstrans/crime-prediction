@@ -1,7 +1,7 @@
 # Import python libraries
 import streamlit as st
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 import numpy as np
 import pandas as pd
 from sklearn import preprocessing
