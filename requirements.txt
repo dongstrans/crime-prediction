@@ -3,3 +3,4 @@ matplotlib-inline
 scikit-image
 scikit-learn
 scikit-learn
+seaborn
