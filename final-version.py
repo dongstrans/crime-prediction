@@ -12,6 +12,11 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
 
+st.write("""
+# Stop Search Crime Prediction
+**The data shows all the London Boroughs and the associated Crimes.**
+""")
+
 # Read csv file
 df = pd.read_csv('london.csv')
 
@@ -23,10 +28,16 @@ months = [str(i) for i in range(202201, 202213)]
 # Get unique values of offence column
 offence = df['Major Category'].unique()
 offence
+print(offence)
 
 # Get unique values for borough column
 borough = df['Borough'].unique()
 borough
+print(borough)
+
+st.write("""
+![alt text](Barking and Dagenham.PNG)
+""")
 
 # Plot graph
 for area in borough:
