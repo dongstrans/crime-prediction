@@ -57,8 +57,7 @@ view_images = []
 for image_file in image_files:
     if any(manuscript in image_file for manuscript
     in view_manuscripts):
-        st.write(image_file)
-            view_images.append(image_file)
+        view_images.append(image_file)
             
 groups = []
 for i in range(0, len(view_images), n):
