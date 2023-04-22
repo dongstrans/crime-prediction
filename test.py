@@ -1,5 +1,6 @@
 # Import python libraries
-import matplotlib.pyplot as plt
+import streamlit as st
+#import matplotlib.pyplot as plt
 #%matplotlib inline
 import numpy as np
 import pandas as pd
@@ -8,3 +9,5 @@ import pandas as pd
 df = pd.read_csv('london.csv')
 
 df
+
+st.text("Test")
