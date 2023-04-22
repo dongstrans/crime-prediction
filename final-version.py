@@ -36,7 +36,7 @@ borough
 print(borough)
 
 st.write("""
-![alt text](Barking and Dagenham.PNG)
+![alt text](/assets/images/Barking and Dagenham.PNG)
 """)
 
 # Plot graph
